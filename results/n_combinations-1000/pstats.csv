@@ -1,0 +1,28 @@
+ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
+1,0.053,0.053,0.053,0.053,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/selection_sort.py:12(selection_sort)
+1,0.053,0.053,0.053,0.053,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/bubble_sort.py:12(bubble_sort)
+2000,0.006,0.000,0.006,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/tree_traverse.py:27(insert)
+999,0.002,0.000,0.003,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/merge_sort.py:21(merge)
+1999/1,0.001,0.000,0.004,0.004,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/merge_sort.py:44(merge_sort)
+27471,0.001,0.000,0.001,0.000,{built-in method builtins.len}
+1000,0.001,0.000,0.001,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/HashTable/HashTable.py:25(__hash)
+1000,0.001,0.000,0.002,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/HashTable/HashTable.py:36(set_item)
+11476,0.000,0.000,0.000,0.000,{method 'append' of 'list' objects}
+1,0.000,0.000,0.004,0.004,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/experiments.py:65(datastructures)
+1000,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/StacksQueues/StacksAndQueues.py:81(enqueue)
+1,0.000,0.000,0.002,0.002,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/experiments.py:81(<listcomp>)
+2000,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/tree_traverse.py:18(__init__)
+1000,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/Graphs/graphs.py:55(addEdge)
+1000,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/Graphs/graphs.py:72(removeVertex)
+2,0.000,0.000,0.000,0.000,{built-in method io.open}
+1000,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/Graphs/graphs.py:49(addVertex)
+1,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/Algorithms/python/insertion_sort.py:15(insertion_sort)
+1,0.000,0.000,0.006,0.006,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/experiments.py:55(<listcomp>)
+1001,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/DSA/DataStructures/StacksQueues/StacksAndQueues.py:23(__init__)
+1,0.000,0.000,0.001,0.001,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/experiments.py:77(<listcomp>)
+2,0.000,0.000,0.000,0.000,{built-in method psutil._psutil_osx.proc_kinfo_oneshot}
+4000,0.000,0.000,0.000,0.000,{method 'keys' of 'dict' objects}
+3923,0.000,0.000,0.000,0.000,{built-in method builtins.ord}
+1,0.000,0.000,0.000,0.000,/Users/zachwolpe/Desktop/µπ/EECS/empirical-speed-test/experiments.py:85(<listcomp>)
+
+
