@@ -91,7 +91,7 @@ def datastructures(array, *args, **kwargs):
 @MemoryProfiler.profile
 def core_algorithms(array, *args, **kwargs):
     # core algorithms
-    datastructures(array)
+    # datastructures(array)
     sorting_algorithms(array)
     return True
 
