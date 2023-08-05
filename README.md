@@ -17,6 +17,10 @@ Each implementation runs $n$ operations of a combination of $k$ algorithms & dat
 The algorithms select are common data structures & algorithms that widely used in practice and have well understood theoretical time and space complexity, serving as great benchmarks.
 
 
+## Results
+
+image:
+[tesk](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png)
 
 ---
 ```
