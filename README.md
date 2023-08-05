@@ -20,7 +20,7 @@ The algorithms select are common data structures & algorithms that widely used i
 ## Results
 
 image:
-[tesk](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png)
+![tesk](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "testier")
 
 ---
 ```
