@@ -1,6 +1,6 @@
 # Empirical Runtime Analysis
 
-Empirical analysis of speed of various programming languages.
+Empirical analysis of the speed of various programming languages.
 
 ## Languages
 
@@ -12,9 +12,9 @@ Empirical analysis of speed of various programming languages.
 ## Build
 
 
-Each implementation runs $n$ operations of a combination of $k$ [data structure & algorithm implementations](https://github.com/ZachWolpe/Data-Structures-and-Algorithms), all wrapped in a CPU profiler. The results are writen to a `.prof` file that is then profiled externally ([Using my `psuedo-profiler` tool](https://github.com/ZachWolpe/Pseudo-Profiler) for assistance).
+Each implementation runs $n$ operations of a combination of $k$ [data structure & algorithm implementations](https://github.com/ZachWolpe/Data-Structures-and-Algorithms), all wrapped in a CPU profiler. The results are written to a `.prof` file that is then profiled externally ([Using my `psuedo-profiler` tool](https://github.com/ZachWolpe/Pseudo-Profiler) for assistance).
 
-The algorithms select are common data structures & algorithms that widely used in practice and have well understood theoretical time and space complexity, serving as great benchmarks.
+The algorithms selected are common data structures & algorithms that are widely used in practice and have well-understood theoretical time and space complexity, serving as excellent benchmarks.
 
 `Machine:: Macbook M1 Pro, 16GB RAM, 10 cores, 2021`
 
@@ -22,7 +22,7 @@ The algorithms select are common data structures & algorithms that widely used i
 
 *_Runtime Performance:_*
 
-Note how the Python runtime explodes in the number of iterations. This is due to the fact that Python is an interpreted language, and the interpreter is running the same code over and over again. The C++ code is compiled to machine code, and thus runs much faster & is optimized to reduced superfluous calculations.
+Note how the Python runtime explodes in the number of iterations. This is due to the fact that Python is an interpreted language, and the interpreter is running the same code over and over again. The C++ code is compiled to machine code, and thus runs much faster & is optimized to reduce superfluous calculations/repetitive tasks.
 
 ![cpyrt](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/empirical-performance.png "C++ vs Python Empirical Runtime Performance")
 
