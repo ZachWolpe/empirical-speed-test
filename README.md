@@ -1,7 +1,5 @@
 # Empirical Runtime Analysis
 
-In converting code from Python to C++, we rely on theoretical assumptions. Here we test those assumptions empirically.
-
 Empirical analysis of speed of various programming languages.
 
 ## Languages
@@ -9,18 +7,40 @@ Empirical analysis of speed of various programming languages.
 - `C++`
 - `Python`
 
+`Rust` & `Golang` are coming soon.
+
 ## Build
 
 
-Each implementation runs $n$ operations of a combination of $k$ algorithms & data structure manipulations, all wrapped in a CPU profiler. The results are writen to a `.prof` file that is then profiled externally (see my `psuedo-profiler` tool for assistance).
+Each implementation runs $n$ operations of a combination of $k$ [data structure & algorithm implementations](https://github.com/ZachWolpe/Data-Structures-and-Algorithms), all wrapped in a CPU profiler. The results are writen to a `.prof` file that is then profiled externally ([Using my `psuedo-profiler` tool](https://github.com/ZachWolpe/Pseudo-Profiler) for assistance).
 
 The algorithms select are common data structures & algorithms that widely used in practice and have well understood theoretical time and space complexity, serving as great benchmarks.
 
+`Machine:: Macbook M1 Pro, 16GB RAM, 10 cores, 2021`
 
-## Results
+## Empirical Results
 
-image:
-![tesk](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "testier")
+
+![cpyrt](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/empirical-performance.png "C++ vs Python Empirical Runtime Performance")
+
+
+![cpp-profiler](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/cpp-profile.png "C++ Full Runtime Profiler: i:{10,100,1000,10000,100000}")
+
+
+
+Python Profiles:
+
+
+![10-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 10 operation.")
+
+![100-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 100 operation.")
+
+![1000-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 1000 operation.")
+
+![10000-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 10000 operation.")
+
+![100000-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 100000 operation.")
+
 
 ---
 ```
