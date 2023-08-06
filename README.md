@@ -20,11 +20,11 @@ The algorithms select are common data structures & algorithms that widely used i
 
 ## Empirical Results
 
+*_Runtime Performance:_*
+
+Note how the Python runtime explodes in the number of iterations. This is due to the fact that Python is an interpreted language, and the interpreter is running the same code over and over again. The C++ code is compiled to machine code, and thus runs much faster & is optimized to reduced superfluous calculations.
 
 ![cpyrt](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/empirical-performance.png "C++ vs Python Empirical Runtime Performance")
-
-
-![cpp-profiler](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/cpp-profile.png "C++ Full Runtime Profiler: i:{10,100,1000,10000,100000}")
 
 
 
@@ -40,6 +40,11 @@ Python Profiles:
 ![10000-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 10000 operation.")
 
 ![100000-ops](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/prof-10.png "Python Profiler: 100000 operation.")
+
+
+C++ Profile(s):
+
+![cpp-profiler](https://github.com/ZachWolpe/empirical-speed-test/blob/main/assets/cpp-profile.png "C++ Full Runtime Profiler: i:{10,100,1000,10000,100000}")
 
 
 ---
